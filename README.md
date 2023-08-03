@@ -1,5 +1,13 @@
 Unreal ImGui
 ============
+
+RPH Fork
+--------------------
+- adding some examples for showing common imgui use cases specific to working with unreal engine
+- ALSO setup note: add "ImGui" to modules in your apps Source/xxx.Build.cs file
+- `PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "ImGui" });`
+
+
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
 
 Unreal ImGui is an Unreal Engine 4 plug-in that integrates [Dear ImGui](https://github.com/ocornut/imgui) developed by Omar Cornut.
@@ -13,10 +21,6 @@ Please note that this is a forked project from [https://github.com/segross/Unrea
 I've removed large portions of this readme.md to keep redundant information between the base project and this fork to a minimum. If you wish to read the original readme.md, please see this link: [UnrealImGui ReadMe.md](https://github.com/segross/UnrealImGui/blob/master/README.md).
 
 Also note that the NetImGui branch is not up to date with any of this fork's changes.
-
-RPH Fork
---------------------
-- adding some examples for showing common imgui use cases specific to working with unreal engine
 
 Fork Additions/Fixes
 --------------------
